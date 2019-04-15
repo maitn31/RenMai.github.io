@@ -1,0 +1,26 @@
+﻿body {
+    background-image: url(https://images.unsplash.com/photo-1528306254020-d6f27cdbd417);
+}
+
+.center {
+    text-align: center;
+}
+
+.link {
+    color: blue;
+}
+
+.red {
+    color: red;
+    font-size: 72px;
+}
+
+iframe {
+    width: 1px;
+    height: 1px;
+    border: 1px;
+}
+
+footer {
+    text-align: right;
+}
