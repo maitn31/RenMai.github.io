@@ -1,70 +1,116 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <style>
-        body 
-        {
-            background-image: url(https://images.unsplash.com/photo-1528306254020-d6f27cdbd417);
-        
-        }
-        .center 
-        {
-            text-align:center;
-        }
-        #link {
-            color: blue;
-        }
-        #red
-        {
-            color:red;
-            font-size: 72px;
-        }
-        iframe 
-        {
-            width: 1px;
-            height: 1px;
-            border: 0px;
-            
-        }
-        footer
-        {
-            text-align:right;
-        }
-    </style>
-    <title>Nhan's Home Page</title>
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhan Mai</title>
 </head>
+
 <body>
     <header>
-        <iframe src="https://www.youtube.com/embed/OGS1sGhGsOs?list=PLYqtPnhhnZwulqe0Ts2g4rXaMgEnZvB8T" allow="autoplay; encrypted-media"></iframe>
-        <div class="center">
-            <img src="https://images.unsplash.com/photo-1522827218865-6f92388c094a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5653df8cbc3e28d466cb002fbcfd4ba6&auto=format&fit=crop&w=500&q=100" alt="Server img down">
-            <h6>11:20 August 6, 2018</h6>
+        <nav>
+            <a href="#intro">Nhan Mai</a> |
+            <a href="education">Education</a> |
+            <a href="#tech">Tech Stack</a> |
+            <a href="#languages">Languages</a>
+        </nav>
+        <div>
+            <img src="welcome.avif" alt="Server img down">
         </div>
-        <!--<p>My name is <strong>Nhan Mai </strong>. I'm from <strong><u><a href="https://en.wikipedia.org/wiki/Vietnam">Vietnam</a></u>.</strong></p>-->
-        <h4>Hi everyone! There's nothing special here, but you can take a look :p </h4>
-        <!--<a href="http://users.metropolia.fi/~nhanm/HTMLPage.html#foot"> To the end of page </a>-->
-    </header>
-    <main>
-        <h2 id="me">Something about me!</h2>
+        <h1 id="intro">Nhan Mai</h1>
+        <h2 class="me">Something about me!</h2>
         <ul>
-            <li>My name: <strong>Nhan Thieu Mai</strong>.</li>
-            <li>Original form of name: <strong>Nhan </strong> is written as <strong>仁</strong> in Chinese. Which mean <strong>Benevolence</strong> in English.</li>
-            <li>My birthday: <strong>03/01/1997</strong>.</li>
-            <li>My Nationality: <strong>Vietnamese</strong>.</li>
-            <li>Now studying at: <a href="http://www.metropolia.fi/"><strong class="link"><u class="link">Metropolia</u></strong></a></li>
-            <li>My hobby: <strong>Reading books, playing games, studying about Computer Science while listen to music</strong>.</li>
-            <li>Favourite kind of music: <strong>Chinese Pop Songs</strong>.</li>
-            <li>If you wanna know more about me, just visit my facebook page by clicking <a href="https://www.facebook.com/100012870436054" id="link"><strong><u class="link">Here</u></strong></a>. </li>
+            <li>My name: Nhan Thieu Mai.</li>
+            <li>My birthday: 03/01/1997.</li>
+            <li>My Nationality: Vietnamese.</li>
+            <li>My hobbies: Reading books, playing games, cooking food.</li>
+            <li>Email contact: <a href="mailto:nhan.mai@integrify.io">nhan.mai@integrify.io</a></li>
         </ul>
-        <h2 id="vn">Something about my country!</h2>
-        Hmm, I just don't know what to say and what I should say, so just click <a href="https://en.wikipedia.org/wiki/Vietnam"><strong class="link"><u class="link">Here</u></strong></a> for more information about my country: <a href="https://en.wikipedia.org/wiki/Vietnam"><strong class="link"><u class="link">Vietnam</u></strong></a>
-        <h3>And whoever you are, just</h3>
-        <h1 class="center"><a id="red">Have a good day!</a></h1>
-    </main>
+    </header>
+    <hr>
+    <h2 id = "education">Education</h2>
+    <li>2018-2022
+        <ul>
+            <li>Bachelor of Information Technology</li>
+            <li>Metropolia University of Applied Sciences</li>
+            <li>Espoo, Finland</li>
+        </ul>
+    </li>
+    <li>2015-2018
+        <ul>
+            <li>Bachelor of Computer Science</li>
+            <li>Ho Chi Minh University of Sciences</li>
+            <li>Ho Chi Minh City, Vietnam</li>
+        </ul>
+    </li>
+</header>
+<hr>
+    <section>
+        <h2 id="tech">Tech stack</h2>
+        <ol>
+            <li>Frontend
+                <ul>
+                    <li>Android</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </li>
+            <li>Backend
+                <ul>
+                    <li>Firebase</li>
+                    <li>NodeJS</li>
+                    <li>Azure</li>
+                    <li>RestAPI/GraphQL</li>
+                    <li>MongoDB/PostgreSQL</li>
+                </ul>
+            </li>
+            <li>Github/Gitlab Actions CI/CD</li>
+            <li>Game delevopent</li>
+                <ul>
+                    <li>C++ Game framework</li>
+                    <li>Unreal Engine</li>
+                    <li>Pygame</li>
+                </ul>
+            <li>Bash script</li>
+            <li>Other framework: Tensorflow, Pytorch, Yolo, Numpy</li>
+        </ol>
+    </section>
+    <hr>
+    <h2 id = "languages"></h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vietnamese</td>
+                <td>Naitive</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Fulent</td>
+            </tr>
+            <tr>
+                <td>Chiense</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>Finnish</td>
+                <td>Novice</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
     <footer>
-        <p>© 2018 <a href="mailto:mtnhan@apcs.vn" id="blue">mtnhan@apcs.vn</a></p>
+        <p>© 2022 <a href="mailto:nhan.mai@integrify.io">nhan.mai@integrify.io</a></p>
     </footer>
-</body>
+
+
+
+    </body>
 </html>
